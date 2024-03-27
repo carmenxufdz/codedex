@@ -1,2 +1,2 @@
-# codedex-python
-Codédex: The Legend of Python
+# Codédex
+[Check out my profile!](https://www.codedex.io/@carmenxufdz)  
