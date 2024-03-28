@@ -1,5 +1,4 @@
 # Create a GIF with Python 🎬
-#
 ### Autor: Carmen Chunyin Fernandez Nuñez
 ### Alias: Alissea
 
