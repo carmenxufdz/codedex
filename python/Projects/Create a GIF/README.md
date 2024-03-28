@@ -23,8 +23,9 @@ Suppose you have Python and pip the package installer on your computer. In that 
 Let’s open up a code editor like VS Code and create a new file called create_a_gif.py.
 
 To use the imageio library, you need to import it in your code. The "v3" in the import statement means you're using version 3 of the imageio library:
-
-<>import imageio.v3 as iio<>
+```
+import imageio.v3 as iio
+```
 
 The as part allows you to give the library a shorter name to work with (a nickname/alias), making it more convenient. So we've renamed imageio.v3 as iio moving forward.
 
@@ -39,5 +40,39 @@ team-pic2.png
 💡 Make sure to store the image files in the same folder as your Python program file.
 
 In our Python program, we'll create a list that contains the locations of the image files. We also need to create an empty list that will be used to store the actual image data from these files.
+```
+filenames = ['team-pic1.png', 'team-pic2.png']
+images = [ ]
+```
 
+Next, let’s use a for loop to go through the file paths and read the images using imageio library’s .imread() method:
+```
+for filename in filenames:
+  images.append(iio.imread(filename))
+```
+The .imread() method loads an image based on the file path. So now, our images variable has all the images!
+
+Lastly, let’s use the .imwrite() method to turn the images into a GIF:
+```
+iio.imwrite('team.gif', images, duration = 500, loop = 0)
+```
+This takes in four arguments:
+
+'team.gif': This is the name you want to give to your new GIF file.
+images: The list containing the image data.
+duration = 500: How long each picture should show in the GIF, in milliseconds.
+loop = 0: How many times the GIF should repeat (0 means it keeps looping forever).
+And that’s it! Here’s the whole program:
+```
+import imageio.v3 as iio
+
+filenames = ['team-pic1.png', 'team-pic2.png']
+images = [ ]
+
+for filename in filenames:
+  images.append(iio.imread(filename))
+
+iio.imwrite('team.gif', images, duration = 500, loop = 0)
+```
+Let’s run this program and see what happens! A new team.gif should appear:
 ![](https://github.com/carmenxufdz/codedex/blob/main/python/Projects/Create%20a%20GIF/team.gif)
