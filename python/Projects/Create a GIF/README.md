@@ -33,7 +33,11 @@ Now, run the code to make sure it works. Hopefully there's no error!
 Here are two images that you can use for this project (feel free to use your own!):
 
 team-pic1.png
+
 team-pic2.png
+
 💡 Make sure to store the image files in the same folder as your Python program file.
 
 In our Python program, we'll create a list that contains the locations of the image files. We also need to create an empty list that will be used to store the actual image data from these files.
+
+![](https://github.com/carmenxufdz/codedex/blob/main/python/Projects/Create%20a%20GIF/team.gif)
