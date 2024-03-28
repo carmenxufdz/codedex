@@ -69,7 +69,7 @@ for filename in filenames:
 
 iio.imwrite('team.gif', images, duration = 500, loop = 0)
 ```
-Let’s run this program and see what happens! A new team.gif should appear:
+
 ![](https://github.com/carmenxufdz/codedex/blob/main/python/Projects/Create%20a%20GIF/team.gif)
 
 [Credits on this Project](https://www.codedex.io/projects/create-a-gif-with-python)  
