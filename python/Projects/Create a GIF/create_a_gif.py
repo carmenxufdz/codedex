@@ -1,0 +1,14 @@
+# Create a GIF with Python 🎬
+#
+# Autor: Carmen Chunyin Fernandez Nuñez
+# Alias: Alissea
+
+import imageio.v3 as iio
+
+filenames = ['C:/Users/carme/Documents/Codedex/python/Projects/Create a GIF/team_pic1.png', 'C:/Users/carme/Documents/Codedex/python/Projects/Create a GIF/team_pic2.png']
+images = [ ]
+
+for filename in filenames:
+  images.append(iio.imread(filename))
+
+iio.imwrite('team.gif', images, duration = 500, loop = 0)
