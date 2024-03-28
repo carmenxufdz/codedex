@@ -1,6 +1,4 @@
 # Create a GIF with Python 🎬
-### Autor: Carmen Chunyin Fernandez Nuñez
-### Alias: Alissea
 
 ## Introduction
 Do you pronounce it “GIF” or a “JIF”? Either way, Graphics Interchange Format (GIF) is great for creating animated images. The format has been around since 1987 and helped define the early internet. It’s used to display memes, graphics, logos, and they are everywhere — on websites, text messages, and social media.
