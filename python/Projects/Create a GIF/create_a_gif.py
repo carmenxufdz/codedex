@@ -5,7 +5,7 @@
 
 import imageio.v3 as iio
 
-filenames = ['C:/Users/carme/Documents/Codedex/python/Projects/Create a GIF/team_pic1.png', 'C:/Users/carme/Documents/Codedex/python/Projects/Create a GIF/team_pic2.png']
+filenames = ['team_pic1.png', 'team_pic2.png']
 images = [ ]
 
 for filename in filenames:
