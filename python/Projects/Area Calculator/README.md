@@ -42,3 +42,6 @@ Height: 6
 
 The area is 15
 ```
+
+> [!NOTE]
+> For the resolution of this project, I decided to implement **while loop** so you don´t have to open the program everytime you want to do some opeartion. You can close it when you have finished
