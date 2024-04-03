@@ -1,1 +1,20 @@
+# Area Calculator 📐
+Create a **calculator.py** program that calculates the area of one of the following shapes:
 
+1. Square
+2. Rectangle
+3. Triangle
+4. Circle
+
+The program should present a menu for the user to choose which shape to calculate, then ask them for the appropriate values (side, length, width, etc.).
+
+Then, it should calculate the area and print it out.
+
+Here are the area equations for each shape:
+
+| Shape     | Equation                        |
+|----------:|---------------------------------|
+| Square    | _area = side<sup>2</sup>_       |
+| Rectangle | _area = lenght * widht_         |
+| Triangle  | _area = (height * base)/2_      |
+| Circle    | _area = π * radius<sup>2</sup>_ |
