@@ -18,3 +18,27 @@ Here are the area equations for each shape:
 | Rectangle | _area = lenght * widht_         |
 | Triangle  | _area = (height * base)/2_      |
 | Circle    | _area = π * radius<sup>2</sup>_ |
+
+> [!NOTE]
+> For pi π in the area of a circle, feel free to either use 3.14 or import the math module to use the math.pi variable.
+
+The output should look something like this:
+
+```
+==================
+Area Calculator 📐
+==================
+
+1) Triangle
+2) Rectangle
+3) Square
+4) Circle
+5) Quit
+
+Which shape: 1
+
+Base: 5
+Height: 6
+
+The area is 15
+```
