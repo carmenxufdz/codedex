@@ -13,7 +13,7 @@ Then, it should calculate the area and print it out.
 Here are the area equations for each shape:
 
 | Shape     | Equation                        |
-|----------:|---------------------------------|
+|-----------|---------------------------------|
 | Square    | _area = side<sup>2</sup>_       |
 | Rectangle | _area = lenght * widht_         |
 | Triangle  | _area = (height * base)/2_      |
